@@ -1,0 +1,85 @@
+header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px;
+    width: 100%vw;
+    height: 200px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.purple-box {
+    background-color: purple;
+    width: 50px;
+    height: 150px;
+    position: relative;
+    top: 45px;
+    margin-right: 50px;
+}
+
+.green-box {
+    background-color: green;
+    width: 500px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.blue-circle {
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%vw;
+    height: 300px;
+    margin: 25px;
+    padding: 10px;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+}
+
+.tan-box {
+    background-color: lightgoldenrodyellow;
+    width: 85vw;
+    height: 17vh;
+    box-shadow: 10px 10px 7px 2px #30302f;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 50%;
+    box-shadow: 5px 5px 5px 0px darkgray;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-left: 25vw;
+}
+
+.hello {
+    color: #160373;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.friends {
+    color: #160373;
+    font-weight: 1000;
+    font-size: 35px; 
+}

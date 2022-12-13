@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    margin-top: 0px;
+    background-color: grey;
+    height: 250px;
+}
+
+body > div {
+    display: flex;
+    justify-content: space-between;
+    height: 81vh;
+    position: relative;
+    z-index: 2;
+}
+
+
+.left-side {
+    background-color: lightgray;
+    width: 200px;
+}
+
+.right-side {
+    background-color: lightgray;
+    width: 200px;
+    margin-right: 0px;
+}
+
+.footer {
+    background-color: grey;
+    display: flex;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
